@@ -90,8 +90,8 @@ def process_file(file_path, output_folder, sobel):
 
 def main():
     parser = argparse.ArgumentParser(description="对文件夹内所有 npy 文件进行边缘检测处理（除最后一层）")
-    parser.add_argument("--input_folder", type=str, default="/home/ubuntu/Project/data/MSLUB_public/train_normal", help="输入 npy 文件所在文件夹")
-    parser.add_argument("--output_folder", type=str, default="/home/ubuntu/Project/data/MSLUB_public/train_normal_edge", help="保存处理后 npy 文件的文件夹")
+    parser.add_argument("--input_folder", type=str, default="../data/BraTS2021/train", help="输入 npy 文件所在文件夹")
+    parser.add_argument("--output_folder", type=str, default="../data/BraTS2021/train_edge", help="保存处理后 npy 文件的文件夹")
     args = parser.parse_args()
     
     # 确保输出文件夹存在

@@ -1,8 +1,6 @@
-Here is a sample README for my GitHub repository:
-
 # MultiTransAD
 
-This repository contains code for training and testing MultiTransAD on the multi-sequence MR dataset, such as BraTS2021 dataset.
+This repository contains code for training and testing MT-AD on the multi-sequence MR dataset, such as BraTS2021 dataset.
 ![Model](./image/model.png "Model Architecture")
 
 ## Code Structure

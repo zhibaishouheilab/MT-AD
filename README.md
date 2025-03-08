@@ -1,4 +1,4 @@
-# MultiTransAD
+# MT-AD
 
 This repository contains code for training and testing MT-AD on the multi-sequence MR dataset, such as BraTS2021 dataset.
 ![Model](./image/model.png "Model Architecture")
